@@ -2,7 +2,7 @@
 
 from typing import Type
 
-# Classe 'Pessoa' depende de 'Casa' como dependencia
+# Classe 'Pessoa' depende de 'Casa' como dependencia de estado
 class Casa:
 
   def __init__(self) -> None:
