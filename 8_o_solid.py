@@ -1,7 +1,7 @@
 # pylint: disable-all
 
 # Open close principle -> Entradas diferentes geram ações diferentes
-# Molde
+# Molde -> Melhor entendimento com interfaces
 
 class Circo:
   def apresentacao(self, apresentador : any) -> None:
